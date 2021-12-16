@@ -25,4 +25,4 @@ ${EXEC2}: ${OBJECTS2}
 .PHONY: clean
 
 clean:
-	rm ${OBJECTS} ${EXEC} ${DEPENDS}
+	rm ${OBJECTS} ${OBJECTS2} ${EXEC2} ${EXEC} ${DEPENDS}
